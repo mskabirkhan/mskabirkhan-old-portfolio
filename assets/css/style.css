@@ -3,14 +3,14 @@
 * {
 margin: 0;
 padding: 0;
-box-sizing: border-box;
+box-sizing: round-box;
 }
 body.bg{
 font-family:  'Inconsolata', monospace;
 margin: 0;
 padding: 0;
 overflow-x:hidden;
-background-color: #ffffff;
+background-color: #b73007;
 }
 }
 h1,
@@ -43,9 +43,9 @@ list-style-type: none;
 /*top_bar Section----------------------------------------*/
 /*-----------------------------------------------------*/
 .top_section{
-background: #114357; 
-background: -webkit-linear-gradient(to left, #114357 , #F29492); 
-background: linear-gradient(to left, #114357 , #F29492); 
+background: #b73007; 
+background: -webkit-linear-gradient(to left, #b73007 , #F29492); 
+background: linear-gradient(to left, #114357 , #082c2d); 
 width: 100%;
 height: 100vh;
 padding: 8%;
