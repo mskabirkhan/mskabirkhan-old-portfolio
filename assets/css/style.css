@@ -131,6 +131,7 @@ text-align: justify;
 /*--dowhat_section------------------------------------*/
 /*-----------------------------------------------------*/
 .dowhat_section{
+background: #D56C2C; 
 padding:  8%;
 margin: 0;
 padding-bottom: 4%;
@@ -147,6 +148,9 @@ color: #000;
 padding-bottom: 5%;
 }
 .dowhat_section .boxes{
+background: #D56C2C; 
+background: -webkit-linear-gradient(to left, #1F3044 , #ed8a63); 
+background: linear-gradient(to left, #FB9039 , #845007);
 margin: 10px 0;
 padding: 0;
 padding-top: 6%;
@@ -179,10 +183,10 @@ margin: 0;
 text-align: left;
 }
 /*-----------------------------------------------------*/
-/*--mywork-section------------------------------------*/
+/*--my experience-section------------------------------------*/
 /*-----------------------------------------------------*/
 .mywork-section{
-background-color: #929D9E;
+background-color: #000;
 background: -webkit-linear-gradient(to left, #D48166 , #FB8122); 
 background: linear-gradient(to right, #18181E , #4BFFA5);
 padding: 2% 8%;
@@ -247,8 +251,8 @@ text-align: center;
 display: block;
 }
 .mywork-section a span{
-background-color: #1D1D2C;
-color: #000;
+background-color: #F8E5E5;
+color: #3778C2;
 border:1x solid rgba(255,255,255,0.3);
 padding: 10px 20px;	
 font-size: 18px;
@@ -259,13 +263,18 @@ text-align: center;
 margin: 5% 0;
 }
 /*-----------------------------------------------------*/
-/*--myprofile-section------------------------------------*/
+/*--Contact me-section------------------------------------*/
 /*-----------------------------------------------------*/
 .myprofile_section{
+background-color: #F8E5E5;
+background: linear-gradient(to bottom, #18181E , #4BFFA5);
+background: linear-gradient(to top, #FA2742 , #FA2742);
+
 padding: 6% 8%;
 margin: 0;
 }
 .myprofile_section h1{
+
 font-size: 60px;
 font-weight: 700;
 padding: 10px 0;
@@ -283,6 +292,9 @@ margin: 0;
 }
 /*--form-section------------------------------------*/
 .form-section{
+background-color: #1D1D2C;
+background: linear-gradient(to right, #18181E , #849531);
+
 margin: 0;
 padding: 30px 0;
 padding-bottom: 0;
@@ -314,19 +326,19 @@ letter-spacing: 1px;
 margin-top: 15px;
 }
 /*-----------------------------------------------------*/
-/*--test-section------------------------------------*/
+/*--Check me on social-section-------------------------*/
 /*-----------------------------------------------------*/
 .test-section{
 padding: 6% 8%;
 margin: 0;
-background: #114357; 
-background: -webkit-linear-gradient(to left, #F29492 , #114357); 
-background: linear-gradient(to left, #F29492 , #114357); 
+background: #D56C06; 
+background: -webkit-linear-gradient(to left, #AD4328 , #114357); 
+background: linear-gradient(to left, #61082B , #D29849); 
 text-align: center;
 color: #ffffff;
 }
 .test-section h1{
-font-size: 60px;
+font-size: 40px;
 font-weight: 700;
 padding: 10px 0;
 margin: 0;
