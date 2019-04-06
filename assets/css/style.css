@@ -10,7 +10,7 @@ font-family:  'Inconsolata', monospace;
 margin: 0;
 padding: 0;
 overflow-x:hidden;
-background-color: #b73007;
+background-color: #96858F;
 }
 }
 h1,
@@ -43,9 +43,9 @@ list-style-type: none;
 /*top_bar Section----------------------------------------*/
 /*-----------------------------------------------------*/
 .top_section{
-background: #ec7f37; 
-background: -webkit-linear-gradient(to left, #b73007 , #F29492); 
-background: linear-gradient(to left, #114357 , #082c2d); 
+background: #b82601; 
+background: -webkit-linear-gradient(to left, #845007 , #ed8a63); 
+background: linear-gradient(to left, #3a4660 , #845007); 
 width: 100%;
 height: 100vh;
 padding: 8%;
@@ -71,7 +71,7 @@ text-decoration: none;
 display: block;
 }
 .circle a img{
-width: 150px;
+width: 180px;
 padding: 0;
 margin: 0;
 text-align: center;
@@ -182,7 +182,9 @@ text-align: left;
 /*--mywork-section------------------------------------*/
 /*-----------------------------------------------------*/
 .mywork-section{
-background-color: #000;
+background-color: #929D9E;
+background: -webkit-linear-gradient(to left, #D48166 , #FB8122); 
+background: linear-gradient(to right, #18181E , #4BFFA5);
 padding: 2% 8%;
 margin: 0;
 height: auto;
@@ -245,7 +247,7 @@ text-align: center;
 display: block;
 }
 .mywork-section a span{
-background-color: #ffffff;
+background-color: #1D1D2C;
 color: #000;
 border:1x solid rgba(255,255,255,0.3);
 padding: 10px 20px;	
