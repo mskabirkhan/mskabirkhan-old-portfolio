@@ -102,14 +102,25 @@ margin-top: 0;
 }
 .profile_name p.intro{
 color: rgba(255,255,255,0.7);
-font-size: 20px;
+font-size: 16px;
 padding: 5px 6%;
 }
+.profile_name p.intro1{
+color: rgba(255,255,255,0.7);
+font-size: 15px;
+padding: 5px 6%;
+}
+
 .profile_name h6{
 font-family: 'Yellowtail', cursive;
 color: #ffffff;
 padding-top:30px;
 }
+
+
+
+
+
 /*-----------------------------------------------------*/
 /*--content_section------------------------------------*/
 /*-----------------------------------------------------*/
