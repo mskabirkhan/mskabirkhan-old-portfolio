@@ -105,11 +105,6 @@ color: rgba(255,255,255,0.7);
 font-size: 16px;
 padding: 5px 6%;
 }
-.profile_name p.intro1{
-color: rgba(255,255,255,0.7);
-font-size: 15px;
-padding: 5px 6%;
-}
 
 .profile_name h6{
 font-family: 'Yellowtail', cursive;
@@ -117,14 +112,12 @@ color: #ffffff;
 padding-top:30px;
 }
 
-
-
-
-
 /*-----------------------------------------------------*/
 /*--content_section------------------------------------*/
-/*-----------------------------------------------------*/
+/*-----------------------------------------------------
 .content_section{
+	background: #000; 
+
 padding: 5% 8%;
 margin: 0;
 padding-top: 0;
@@ -277,15 +270,13 @@ margin: 5% 0;
 /*--Contact me-section------------------------------------*/
 /*-----------------------------------------------------*/
 .myprofile_section{
-background-color: #F8E5E5;
-background: linear-gradient(to bottom, #18181E , #4BFFA5);
-background: linear-gradient(to top, #FA2742 , #FA2742);
-
+background: #2F4F4F; 
+background: -webkit-linear-gradient(to left, #FAFAD2 , #FFEBCD); 
+background: linear-gradient(to right, #2F4F4F , #FAFAD2);
 padding: 6% 8%;
 margin: 0;
 }
 .myprofile_section h1{
-
 font-size: 60px;
 font-weight: 700;
 padding: 10px 0;
@@ -303,9 +294,6 @@ margin: 0;
 }
 /*--form-section------------------------------------*/
 .form-section{
-background-color: #1D1D2C;
-background: linear-gradient(to right, #18181E , #849531);
-
 margin: 0;
 padding: 30px 0;
 padding-bottom: 0;
@@ -342,9 +330,9 @@ margin-top: 15px;
 .test-section{
 padding: 6% 8%;
 margin: 0;
-background: #D56C06; 
+background: #4B5320; 
 background: -webkit-linear-gradient(to left, #AD4328 , #114357); 
-background: linear-gradient(to left, #61082B , #D29849); 
+background: linear-gradient(to right, #FAD6A5 , #4B5320); 
 text-align: center;
 color: #ffffff;
 }

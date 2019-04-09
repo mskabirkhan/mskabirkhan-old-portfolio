@@ -20,10 +20,12 @@
       <script type="text/javascript" src="assets/js/general.js"></script>
    </head>
    <body class="bg">
-      <div class="top_section">
+         <div class="top_section">
          <div class="row nopadding">
             <div class="col-md-12 nopadding">
                <div class="profile_name">
+
+
                   <div class="circle">
                      <a href="#"><img src="assets/img/profile.jpg"></a>
                   </div>
@@ -32,14 +34,24 @@
                   <p class="intro"> Bonjur! Welcome to my portfolio. I am a Computer Science(Software Engineering) final year student. I am passionate about IT and technology. I would love to see my self in a developer position and a one of the geek in Tech industry. </p>
 
                   <p class="position"><i>Find out more about my course: <a href="https://www.herts.ac.uk/courses/computer-science-software-engineering3"><font face="Georgia" color="yellow">Computer Science(Software Engineering)</font></a></i></p>
-                  <h2> QUOTATIONS THAT INSPIRED ME TO LEARN</h2>
-                   <p class="intro1"> “I’m always doing that which I cannot do, in order that I may learn how to do it.” — Pablo Picasso </p>
 
+                  <h2> QUOTATIONS I LOVE</h2>
+                   <p class="position"> I’m always doing that which I cannot do, in order that I may learn how to do it. — Pablo Picasso </p>
+
+                   <p class="position">  Empathy, and the ability to use your imagination, should have no limits. — Emma Watson </p>
+
+                   <p class="position">  I have not failed. I’ve just found 10,000 ways that won’t work.  – Thomas A . Edison </p>
+
+                    <p class="position"> Positive feelings come from being honest about yourself and accepting your personality, and physical characteristics, warts and all; and, from belonging to a family that accepts you without question. – Willard Scott  </p>
+
+                    </div>
+                  </div>
                </div>
             </div>
-            <!--end of col-md-12-->
+            <!--end of row nopadding-->
          </div>
          <!--end of row nopadding-->
+      </div>
       </div>
       <!--ends of top_section--> 
       <div class="dowhat_section">
@@ -196,18 +208,38 @@
             <div class="col-md-12 nopadding">
                <h1>CONTACT ME</h1>
                <p> Please leave a message, I will get back to you as soon as possible!</p>
+               <p class="address"><span><a href="#" > 07422 55 26 40 </a></span><br>
+               <a href="mailto:s.kabir973@gmail.com?Subject=Mail to Kabir"> s.kabir973@gmail.com </a></span><br>
+               <p> Send me message directly from this website</p>
                <div class="col-md-3 nopadding"></div>
                <div class="col-md-6 nopadding">
                   <div class="form-section">
 
-                     <form method = "post" action="mailto:s.kabir973@gmail.com" >
-                     	 <enctype= "text/plain">
-                        <input type="text" placeholder="Name"><br>
-                        <input type="email" placeholder="Email"><br>
-                        <textarea type="message" placeholder="Message" rows="5"></textarea> <br>
-                        <button type="submit">SEND <i class="fa fa-send"></i></button>
-                     </form>
-                  </div>
+                     <form action="" method="post" id="contactForm" name="contactForm">
+        <fieldset>
+          <div>
+            <label for="contactName">Name <span class="required">*</span></label>
+            <input type="text" value="" size="35" id="contactName" name="contactName">
+          </div>
+          <div>
+            <label for="contactEmail">Email <span class="required">*</span></label>
+            <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+          </div>
+          <div>
+            <label for="contactSubject">Subject</label>
+            <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+          </div>
+          <div>
+            <label for="contactMessage">Message <span class="required">*</span></label>
+            <textarea cols="50" rows="8" id="contactMessage" name="contactMessage"></textarea> </div>
+           <div class="g-recaptcha" data-sitekey="6LdfqSkUAAAAAHDzom355fNBuQcDElNrwDbpuAeN"></div>
+          
+          <div>
+            <button class="submit">Send a message</button>
+            <span id="image-loader"> <img alt="" src="portfolio_files/images/loader.gif"> </span> </div>
+        </fieldset>
+         </form>
+                        </div>
                   <!--end of form-section-->
                </div>
                <div class="col-md-3 nopadding"></div>
