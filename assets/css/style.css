@@ -132,7 +132,7 @@ letter-spacing: 1px;
 text-align: justify;
 }
 /*-----------------------------------------------------*/
-/*--dowhat_section------------------------------------*/
+/*--What I am doing now_section------------------------*/
 /*-----------------------------------------------------*/
 .dowhat_section{
 background: #D56C2C; 
@@ -187,12 +187,12 @@ margin: 0;
 text-align: left;
 }
 /*-----------------------------------------------------*/
-/*--my experience-section------------------------------------*/
+/*--my experience-section-------------------------------*/
 /*-----------------------------------------------------*/
 .mywork-section{
-background-color: #000;
-background: -webkit-linear-gradient(to left, #D48166 , #FB8122); 
-background: linear-gradient(to right, #18181E , #4BFFA5);
+background-color: #000C40;
+background: -webkit-linear-gradient(to left, #0F2027 , #FB8122); 
+background: linear-gradient(to right, #203A43 , #2C5364);
 padding: 2% 8%;
 margin: 0;
 height: auto;
@@ -337,7 +337,7 @@ text-align: center;
 color: #ffffff;
 }
 .test-section h1{
-font-size: 40px;
+font-size: 30px;
 font-weight: 700;
 padding: 10px 0;
 margin: 0;
@@ -395,3 +395,41 @@ text-decoration: none;
 font-size: 35px;
 color: rgba(0,0,0,0.3);
 }
+/*-----------------------------------------------------*/
+/*--Language and Tools Section-------------------------*/
+/*-----------------------------------------------------*/
+.Languages{
+background: #000; 
+background: -webkit-linear-gradient(to bottom, #114357);
+background: linear-gradient(to top, #FAD6A5 , #4B5320);
+padding:  5%;
+margin: 0;
+padding-bottom: 5%;
+}
+.Languages h2{
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+padding: 15px 0;
+margin: 0;
+padding-top: 0;
+margin-top: 0;
+color: #000;
+padding-bottom: 5%;
+}
+
+.Languages ul{
+ list-style: disc outside none;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+.Languages ul li{
+ list-style: disc outside none;
+font-family: Verdana;
+display: block;
+padding: 10px 0;
+margin: 0;
+}
+
