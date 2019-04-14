@@ -1,13 +1,24 @@
 <?php
 	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$subject = $_POST['New From Submission'];
+	$visitor_email = $_POST['email'];
 	$message = $_POST['message'];
-	$formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Website: $website \n Priority: $priority \n Type: $type \n Message: $message";
-	$recipient = "s.kabr973@gmail.com";
-	$subject = "Contact Form";
-	$mailheader = "From: $email \r\n";
-	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-	echo "Thank You!" . " -" . "<a href='form.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
-	header("location: index.html");
+	
+	$email_from = "s.kabr973@gmail.com";
+
+	$email_subject = "Contact Form";
+
+	$email_body = "User Name: $name.\n".
+						"User email: $visitor_email.\n".
+							"User message: $message.\n".
+
+	$to = "s.kabir973@gmail.com";
+
+	$headers = "From: $email_from \r\n";
+
+	$headers .= ""Reply-To: $visitor_email \r\n";
+
+
+	mail($to, $email_subject, $email_body, $headers);
+
+	header("Location: index.html");
 ?>

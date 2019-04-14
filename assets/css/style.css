@@ -324,6 +324,11 @@ font-weight: 600;
 letter-spacing: 1px;
 margin-top: 15px;
 }
+
+form .submit:hover{
+	background-color: #2F4F4F;
+	cursor: pointer
+}
 /*-----------------------------------------------------*/
 /*--Check me on social-section-------------------------*/
 /*-----------------------------------------------------*/
