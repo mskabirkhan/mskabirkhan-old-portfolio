@@ -456,32 +456,32 @@ Photoshop CC | Lightroom CC | Illustrator CC | iMovie</li>
                <p> Send me message directly from this website</p>
                <div class="col-md-3 nopadding"></div>
                <div class="col-md-6 nopadding">
-                  <div class="form-section">
-
-        <form action="mail.php" method="post" id="contactForm" name="contactForm">
-        <fieldset>
-          <div>
-            <label for="contactName">Name <span class="required">*</span></label>
-            <input type="text" value="" size="35" id="contactName" name="contactName">
-          </div>
-          <div>
-            <label for="contactEmail">Email <span class="required">*</span></label>
-            <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-          </div>
-          <div>
-            <label for="contactSubject">Subject</label>
-            <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-          </div>
-          <div>
-            <label for="contactMessage">Message <span class="required">*</span></label>
-            <textarea cols="50" rows="8" id="contactMessage" name="contactMessage"></textarea> </div>
-           <div class="g-recaptcha" data-sitekey="6LdfqSkUAAAAAHDzom355fNBuQcDElNrwDbpuAeN"></div>
-          
-          <div>
-            <button class="submit">Send a message</button>
-            <span id="image-loader"> <img alt="" src="portfolio_files/images/loader.gif"> </span> </div>
-        </fieldset>
-         </form>
+        <div class="form-section">
+        <form id="form-section" method="post" action="mail.php">
+    
+    <p class="name">
+      <input type="text" name="name" id="name" placeholder="Name" />
+      <label for="name">Name</label>
+    </p>
+    
+    <p class="email">
+      <input type="text" name="email" id="email" placeholder="mail@example.com" />
+      <label for="email">Email</label>
+    </p>
+    
+    <p class="web">
+      <input type="text" name="web" id="web" placeholder="www.example.com" />
+      <label for="web">Website</label>
+    </p>    
+  
+    <p class="text">
+      <textarea name="text" placeholder="Text" /></textarea>
+    </p>
+    
+    <p class="submit">
+      <input type="submit" value="Send" />
+    </p>
+  </form>
                         </div>
                   <!--end of form-section-->
                </div>
