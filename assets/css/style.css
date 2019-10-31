@@ -455,7 +455,7 @@ text-align: center;
 text-transform: uppercase;
 }
 .test-section ul{
-padding-top: 3%;
+padding-top: 2%;
 }
 .test-section ul li{
 list-style-type: none;
@@ -511,7 +511,7 @@ color: rgba(0,0,0,0.3);
 background: #000; 
 background: -webkit-linear-gradient(to bottom, #114357);
 background: linear-gradient(to top, #FAD6A5 , #4B5320);
-padding:  0%;
+padding:  2%;
 margin: 0;
 padding-bottom: 5%;
 }
