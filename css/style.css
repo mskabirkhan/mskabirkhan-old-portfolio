@@ -335,7 +335,7 @@ Tabbar design
 **/
 
 #navigation {
-	background-color: #5D5C61;
+    background-color: #FFFFFF;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
@@ -343,15 +343,32 @@ Tabbar design
 
 #navigation li {
 	padding: 0 10px;
+	font-weight: bold
 }
 
 #navigation li a {
-	color: #01a673;
+	color: #000000;
+}
+
+#navigation li a:visited {
+  	text-decoration: none;
+
+}
+
+
+#navigation li a:hover {
+  text-decoration: underline;
+  background-color: #66695C;
+}
+
+#navigation li a:active {
+  text-decoration: underline;
 }
 
 .navbar-brand,
+.navbar-brand:hover { color: #009966; }
 .navbar-brand:hover {
-	color: #009966;
+    text-decoration: underline;
 }
 
 .navbar-toggler-icon {

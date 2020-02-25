@@ -18,11 +18,11 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.", "Web Developer.", "Student."],
-		typeSpeed: 70,
+		strings: ["Software Engineer.", "AI enthusiast.", "Web Developer."],
+		typeSpeed: 90,
 		loop: true,
 		startDelay: 1000,
-		showCursor: false
+		showCursor: true
 	});
 
 	$('.owl-carousel').owlCarousel({
