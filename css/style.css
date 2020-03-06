@@ -336,22 +336,25 @@ Tabbar design
 **/
 
 #navigation {
-    background-color: #FFFFFF;
+    background-color: #2d545e;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
 }
-
+/**  change font design of About, skills, stats etc **/
 #navigation li {
 	padding: 0 10px;
 	font-weight: bold
 }
 
+/**  change font design of About, skills, stats etc **/
 #navigation li a {
-	color: #000000;
+	color: black;
+
 }
 
 #navigation li a:visited {
+	
   	text-decoration: none;
 
 }
@@ -360,6 +363,15 @@ Tabbar design
 #navigation li a:hover {
   text-decoration: underline;
   background-color: #66695C;
+
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
 }
 
 #navigation li a:active {
@@ -367,20 +379,32 @@ Tabbar design
 }
 
 .navbar-brand,
-.navbar-brand:hover { color: #009966; }
 .navbar-brand:hover {
     text-decoration: underline;
+
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+    
 }
 
 .navbar-toggler-icon {
 	background: url(../img/icons/menu.png);
 	background-size: 100%;
+
+
 }
 
 .fixedNav #navigation {
 	position: fixed;
 	top: 0;
 }
+
 
 .loader {
 	width: 100%;
