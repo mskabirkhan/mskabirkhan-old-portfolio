@@ -4,11 +4,11 @@
 
 
 body {
-	font-size: 14px;
-    color: #2b2b2b;
-    background-color: #acb7ae;
-    background: -webkit-linear-gradient(to right, #313d4b, #000 , #1d1e22); 
-	background: linear-gradient(to left, #393f4d , #fff, #313d4b); 
+	font-size: 17px;
+    color: #fff;
+    background-color: #000;
+    /*background: -webkit-linear-gradient(to right, #313d4b, #000 , #1d1e22); 
+	background: linear-gradient(to left, #393f4d , #fff, #313d4b); */
     letter-spacing: 1px;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .skillsSection,
 .contactSection {
-	background-color: #5cdb95;
+	background-color: #2d545e;
 	color: #fff;
 }
 
@@ -149,7 +149,7 @@ body {
 	font-size: 56px;
 	margin-bottom: 10px;
 	font-weight: 400;
-	color: #e74c3c;
+	color: #9c2c2c;
 }
 
 .squareContent h3 {
@@ -169,6 +169,7 @@ body {
     color: #444;
 }
 
+
 .contactButton {
 	color: #fff;
     padding: 15px 20px;
@@ -180,8 +181,9 @@ body {
 
 .contactButton:hover {
 	text-decoration: none;
-	color: #e74c3c;
+	color: #9c2c2c;
 	background-color: #fff;
+
 }
 
 .filter a {
@@ -362,7 +364,7 @@ Tabbar design
 
 #navigation li a:hover {
   text-decoration: underline;
-  background-color: #66695C;
+  background-color: #9b2c2c;
 
   color: #fff;
   text-transform: uppercase;
@@ -396,7 +398,6 @@ Tabbar design
 .navbar-toggler-icon {
 	background: url(../img/icons/menu.png);
 	background-size: 100%;
-
 
 }
 
