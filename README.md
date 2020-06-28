@@ -1,11 +1,9 @@
 # shahria73.github.io
+ 
+This is a simple portfolio I have made for myself. This portfolio is made using pure HTML/CSS/javascript. 
 
+I have used githib for hosting and domain. 
 
+Please check it out live in here: https://shahria73.github.io/
 
-
-
-
-Hello, 
-This is a simple portfolio I have made for myself.
-
-I have used githib for hosting and domain. However, I have also using a different domain to redirect this link.
+Get me in touch for any help!
